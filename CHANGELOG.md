@@ -1,4 +1,8 @@
-# More queerness for your Google Chrome page of new tabs/windows
+# Changelog
+
+## Unreleased
+
+-  add initial project
 
 ## See also
 
