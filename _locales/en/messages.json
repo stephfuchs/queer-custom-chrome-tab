@@ -4,5 +4,8 @@
     },
     "extDescription": {
         "message": "When active you can choose a flag which will customize your new tab/window page in Google Chrome"
+    },
+    "pageIndexTitle": {
+        "message": "New queer tab"
     }
 }
