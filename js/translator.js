@@ -12,6 +12,10 @@ class Translator {
         document.getElementById('page-queer-sub-title').innerText = this._getMessage('pageQueerSubTitle');
     }
 
+    translateQueerInformation() {
+        
+    }
+
     /**
      * Get the text from the messages.json by given key and options
      *

@@ -1,0 +1,28 @@
+{
+    "queerInformation": [
+        {
+            "queer_flag_title": "Progress Pride Flag",
+            "queer_flag_information": "Was designed in 2018 by Daniel Quasar.",
+            "queer_flag_information_copyright_list": [
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
+                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "flags/progress-flag.svg",
+                "queer_flag_image_alt": "image of progress pride flag"
+            }
+        },
+        {
+            "queer_flag_title": "LGBTQIA+ Flag",
+            "queer_flag_information": "Original with 8 stripes designed by Gilbert Baker in 1978. Since 1979 well-known with 6 stripes",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "flags/lgbtqia.svg",
+                "queer_flag_image_alt": "image of original LGBTQIA+ flag"
+            }
+        }
+    ]
+}
