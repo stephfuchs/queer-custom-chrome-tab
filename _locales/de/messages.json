@@ -7,5 +7,11 @@
     },
     "pageIndexTitle": {
         "message": "Neuer Queerness Tab"
+    },
+    "pageQueerTitle": {
+        "message": "Lern die LGBTQIA+ Community kennen"
+    },
+    "pageQueerSubTitle": {
+        "message": "Diese Seite wird zufällig generiert. Jeder neue Tab oder neues Fenster spielt eine andere Information aus."
     }
 }

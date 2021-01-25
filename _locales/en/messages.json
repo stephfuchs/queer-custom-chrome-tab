@@ -7,5 +7,11 @@
     },
     "pageIndexTitle": {
         "message": "New queer tab"
+    },
+    "pageQueerTitle": {
+        "message": "Get to know the LGBTQIA+ Community"
+    },
+    "pageQueerSubTitle": {
+        "message": "This page is random generated. Every new tab or new window will display another information."
     }
 }

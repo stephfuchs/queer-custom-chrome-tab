@@ -7,6 +7,9 @@ class Translator {
      */
     translateIndex() {
         document.getElementById('page-index-title').innerText = this._getMessage('pageIndexTitle');
+        document.getElementById('page-index-footer-url').append(this._getMessage('pageIndexFooterUrl'));
+        document.getElementById('page-queer-title').innerText = this._getMessage('pageQueerTitle');
+        document.getElementById('page-queer-sub-title').innerText = this._getMessage('pageQueerSubTitle');
     }
 
     /**

@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="css/style.css" rel="stylesheet">
-
     <title id="page-index-title"></title>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<div id="page-index-container-text"></div>
+<div class="jumbotron text-center page-queer-title-container">
+    <h1 id="page-queer-title"></h1>
+    <p id="page-queer-sub-title"></p>
+</div>
+<div class="container">
+    <div class="row justify-content-center queer-flag-row">
+        <div class="col-sm-4 queer-flag-col">
+            <img id="queer-flag-image" src="./flags/lgbtqai.svg">
+        </div>
+        <div class="col-sm-4">
+            <h3 id="queer-flag-title">Progress Pride Flag</h3>
+            <p id="queer-flag-information">Was designed in 2018 by Daniel Quasar.</p>
+            <p id="queer-flag-information-copyright">Source:</p>
+            <ul id="queer-flag-information-copyright-list">
+                <li>https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s</li>
+                <li>https://quasar.digital/progress-initiative/?v=a284e24d5f46</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--footer -->
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <div class="footer-container">
+        <div class="footer-copyright" id="page-index-footer-copyright">
+            <a href="https://github.com/stephfuchs/queer-custom-chrome-tab" target="_blank" id="page-index-footer-url"
+               class="footer-github-link">
+                <img class="footer-github-logo" src="./icons/GitHub-Mark-32px.png" alt="GitHub Logo"></a>
+            <div id="page-index-footer-copyright-year"></div>
+        </div>
+    </div>
+</div>
+<!-- JavaScript stuff-->
 <script src="js/translator.js"></script>
 <script src="js/queerness.js"></script>
 <script src="js/base.js"></script>
