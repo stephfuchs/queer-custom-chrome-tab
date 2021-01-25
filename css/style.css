@@ -18,12 +18,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 25px;
 }
 
-#queer-flag-information-copyright, #queer-flag-information-copyright-list > li {
+#queer-flag-information-copyright,
+#queer-flag-information-copyright-list > li {
     font-size: 12px !important;
     font-style: italic !important;
 }
 
 .footer-github-logo {
-    max-height: 2rem;
-    max-width: 2rem;
+    max-height: 48px;
+    max-width: 48px;
 }

@@ -28,7 +28,7 @@ class Queerness {
         request.onload = function () {
             if (request.status >= 200 && request.status < 400) {
                 let json = JSON.parse(request.responseText).queerInformation;
-                let rand = queer._random(json);
+                let rand = queer._random(json.length);
                 document.getElementById('queer-flag-title').innerText = json[rand].queer_flag_title;
                 document.getElementById('queer-flag-information').innerText = json[rand].queer_flag_information;
                 document.getElementById('queer-flag-image').setAttribute('src', json[rand].queer_flag_image.queer_flag_image_src);
@@ -38,8 +38,15 @@ class Queerness {
         request.send();
     }
 
-    _random(queerInformation) {
-        return Math.floor(Math.random() * queerInformation.length);
+    /**
+     * Get a random number by a given length.
+     *
+     * @param length
+     * @returns {number}
+     * @private
+     */
+    _random(length) {
+        return Math.floor(Math.random() * length);
     }
 
     /**
