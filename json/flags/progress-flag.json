@@ -1,0 +1,26 @@
+{
+    "en": {
+        "queer_flag_title": "Progress Pride Flag",
+        "queer_flag_information": "Was designed in 2018 by Daniel Quasar.",
+        "queer_flag_information_copyright_list": [
+            "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
+            "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+        ],
+        "queer_flag_image": {
+            "queer_flag_image_src": "flags/progress-flag.svg",
+            "queer_flag_image_alt": "image of progress pride flag"
+        }
+    },
+    "de": {
+        "queer_flag_title": "Progress Pride Flagge",
+        "queer_flag_information": "2018 gestaltet von Daniel Quasar.",
+        "queer_flag_information_copyright_list": [
+            "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
+            "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+        ],
+        "queer_flag_image": {
+            "queer_flag_image_src": "flags/progress-flag.svg",
+            "queer_flag_image_alt": "Bild der Progress Pride Flagge"
+        }
+    }
+}

@@ -3,12 +3,13 @@
  */
 class Queerness {
 
-    constructor() {
+    constructor(tranlator) {
         this.startYear = 2021;
         this.date = new Date();
         this.currentYear = this.date.getFullYear();
         this.contributor = 'Stephanie Fuchs';
-        this.translator = new Translator();
+        this.translator = tranlator;
+        this.language = chrome.i18n.getUILanguage();
     }
 
     /**
@@ -24,15 +25,13 @@ class Queerness {
         let request = new XMLHttpRequest();
         var queer = this;
 
-        request.open('GET', '../json/queerInformation.json', true);
+        request.open('GET', '../json/queerInformation.json');
         request.onload = function () {
             if (request.status >= 200 && request.status < 400) {
-                let json = JSON.parse(request.responseText).queerInformation;
-                let rand = queer._random(json.length);
-                document.getElementById('queer-flag-title').innerText = json[rand].queer_flag_title;
-                document.getElementById('queer-flag-information').innerText = json[rand].queer_flag_information;
-                document.getElementById('queer-flag-image').setAttribute('src', json[rand].queer_flag_image.queer_flag_image_src);
-                document.getElementById('queer-flag-image').setAttribute('alt', json[rand].queer_flag_image.queer_flag_image_alt);
+                let json = JSON.parse(request.responseText);
+                let jsonQueerInformationPicker = json.queerInformationPicker;
+                let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
+                queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]][queer.language]);
             }
         }
         request.send();
@@ -57,8 +56,16 @@ class Queerness {
         this.translator.translateIndex();
     }
 
-    _translateQueerInformation(object) {
-        this.translator.translateQueerInformation();
+    /**
+     * Set the random queer information to the DOM
+     * @param jsonQueerInformation
+     * @private
+     */
+    _setQueerInformation(jsonQueerInformation) {
+        document.getElementById('queer-flag-title').innerText = jsonQueerInformation.queer_flag_title;
+        document.getElementById('queer-flag-information').innerText = jsonQueerInformation.queer_flag_information;
+        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.queer_flag_image.queer_flag_image_src);
+        document.getElementById('queer-flag-image').setAttribute('alt', jsonQueerInformation.queer_flag_image.queer_flag_image_alt);
     }
 
     /**
@@ -77,6 +84,6 @@ class Queerness {
 }
 
 // start the script when ready
-var queer = new Queerness();
+var queer = new Queerness(new Translator());
 queer.init();
 
