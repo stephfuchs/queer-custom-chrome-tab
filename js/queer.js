@@ -3,13 +3,17 @@
  */
 class Queerness {
 
-    constructor(tranlator) {
+    /**
+     * @param translator
+     */
+    constructor(translator) {
         this.startYear = 2021;
         this.date = new Date();
         this.currentYear = this.date.getFullYear();
         this.contributor = 'Stephanie Fuchs';
-        this.translator = tranlator;
+        this.translator = translator;
         this.language = chrome.i18n.getUILanguage();
+        document.getElementsByTagName('html')[0].setAttribute('lang', this.language);
     }
 
     /**
@@ -21,6 +25,10 @@ class Queerness {
         this._processJson();
     }
 
+    /**
+     * Read in the JSON file and process it to set the queer information.
+     * @private
+     */
     _processJson() {
         let request = new XMLHttpRequest();
         var queer = this;
@@ -35,6 +43,77 @@ class Queerness {
             }
         }
         request.send();
+    }
+
+    /**
+     * Set the random queer information to the DOM
+     * @param jsonQueerInformation
+     * @private
+     */
+    _setQueerInformation(jsonQueerInformation) {
+        this._setInnerText('queer-flag-title', jsonQueerInformation.queer_flag_title);
+        this._setInnerText('queer-flag-information', jsonQueerInformation.queer_flag_information);
+
+        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.queer_flag_image.queer_flag_image_src);
+        document.getElementById('queer-flag-image').setAttribute('alt', jsonQueerInformation.queer_flag_image.queer_flag_image_alt);
+        this._setInformationSources(jsonQueerInformation.queer_flag_information_copyright_list);
+    }
+
+    /**
+     * Set the sources list.
+     *
+     * @param sourcesList
+     * @private
+     */
+    _setInformationSources(sourcesList) {
+        let sourcesListHtml = '';
+
+        if (sourcesList !== null) {
+            let i;
+            for (i = 0; i < sourcesList.length; i++) {
+                sourcesListHtml += '<li>' + sourcesList[i] + '</li>';
+            }
+            this.translator.translateSource();
+            this._setInnerHtml('queer-flag-information-copyright-list', sourcesListHtml);
+        } else {
+            document.getElementById('queer-flag-information-copyright-list').remove();
+        }
+    }
+
+    /**
+     * Set the footer information for copyright and GitHub link.
+     *
+     * @private
+     */
+    _setFooter() {
+        let currentYear = ' ';
+
+        if (this.currentYear !== this.startYear) {
+            currentYear = ' - ' + this.currentYear + ' ';
+        }
+        this._setInnerHtml('page-index-footer-copyright-year', '&copy; ' + this.startYear + currentYear + this.contributor)
+    }
+
+    /**
+     * Set the inner HTML of an element by a given ID.
+     *
+     * @param elementId
+     * @param html
+     * @private
+     */
+    _setInnerHtml(elementId, html) {
+        document.getElementById(elementId).innerHTML = html;
+    }
+
+    /**
+     * Set the inner text of an element by a given ID.
+     *
+     * @param elementId
+     * @param text
+     * @private
+     */
+    _setInnerText(elementId, text) {
+        document.getElementById(elementId).innerText = text;
     }
 
     /**
@@ -54,32 +133,6 @@ class Queerness {
      */
     _translatePage() {
         this.translator.translateIndex();
-    }
-
-    /**
-     * Set the random queer information to the DOM
-     * @param jsonQueerInformation
-     * @private
-     */
-    _setQueerInformation(jsonQueerInformation) {
-        document.getElementById('queer-flag-title').innerText = jsonQueerInformation.queer_flag_title;
-        document.getElementById('queer-flag-information').innerText = jsonQueerInformation.queer_flag_information;
-        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.queer_flag_image.queer_flag_image_src);
-        document.getElementById('queer-flag-image').setAttribute('alt', jsonQueerInformation.queer_flag_image.queer_flag_image_alt);
-    }
-
-    /**
-     * Set the footer information for copyright and GitHub link.
-     *
-     * @private
-     */
-    _setFooter() {
-        let currentYear = ' ';
-
-        if (this.currentYear !== this.startYear) {
-            currentYear = ' - ' + this.currentYear + ' ';
-        }
-        document.getElementById('page-index-footer-copyright-year').innerHTML = '&copy; ' + this.startYear + currentYear + this.contributor;
     }
 }
 
