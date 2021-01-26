@@ -3,6 +3,24 @@
  */
 class Translator {
     /**
+     * Get the locale for the current browser language settings.
+     * Default: 'en'
+     * @returns {string}
+     */
+    getLocale() {
+        switch (chrome.i18n.getUILanguage()) {
+            case 'de':
+            case 'de-DE':
+            case 'de-AT':
+            case 'de-CH':
+                return 'de';
+            case 'en':
+            default:
+                return 'en';
+        }
+    }
+
+    /**
      * Translate the index page.
      */
     translateIndex() {

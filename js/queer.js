@@ -2,9 +2,8 @@
  * Queerness tasks to run the script and the information for the new tab.
  */
 class Queerness {
-
     /**
-     * @param translator
+     * @param translator - Translator object
      */
     constructor(translator) {
         this.startYear = 2021;
@@ -12,7 +11,7 @@ class Queerness {
         this.currentYear = this.date.getFullYear();
         this.contributor = 'Stephanie Fuchs';
         this.translator = translator;
-        this.language = chrome.i18n.getUILanguage();
+        this.language = this.translator.getLocale();
         document.getElementsByTagName('html')[0].setAttribute('lang', this.language);
     }
 
