@@ -1,27 +1,8 @@
-<svg enable-background="new 0 0 419.53 297.64" version="1.1" viewBox="0 0 419.53 297.64" x="0px" xml:space="preserve"
-     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-<switch>
-
-<g extraneous="self">
-<g id="Ebene_1">
-<rect fill="#6E2381" height="297.638" width="419.528" x="0.001" y="0.001"/>
-</g>
-	<g id="Ebene_2">
-<rect fill="#2E57A4" height="248.031" width="419.528" x="0.002"/>
-</g>
-	<g id="Ebene_3">
-<rect fill="#028137" height="198.425" width="419.527" y="0"/>
-</g>
-	<g id="Ebene_4">
-<rect fill="#FFED00" height="148.819" width="419.527"/>
-</g>
-	<g id="Ebene_5">
-<rect fill="#F18815" height="99.212" width="419.527"/>
-</g>
-	<g id="Ebene_6">
-<rect fill="#E30613" height="49.606" width="419.528" x="0.002"/>
-</g>
-</g>
-</switch>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.53 297.64">
+	<rect fill="#6E2381" height="297.638" width="419.528"/>
+	<rect fill="#2E57A4" height="248.031" width="419.528"/>
+	<rect fill="#028137" height="198.425" width="419.527"/>
+	<rect fill="#FFED00" height="148.819" width="419.527"/>
+	<rect fill="#F18815" height="99.212" width="419.527"/>
+	<rect fill="#E30613" height="49.606" width="419.528"/>
 </svg>
