@@ -10,10 +10,11 @@ class Translator {
         document.getElementById('page-index-footer-url').append(this._getMessage('pageIndexFooterUrl'));
         document.getElementById('page-queer-title').innerText = this._getMessage('pageQueerTitle');
         document.getElementById('page-queer-sub-title').innerText = this._getMessage('pageQueerSubTitle');
+        document.getElementById('queer-flag-information-sources').innerText = this._getMessage('queerFlagInformationSources');
     }
 
     translateQueerInformation() {
-        
+
     }
 
     /**

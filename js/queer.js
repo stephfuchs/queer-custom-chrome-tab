@@ -76,6 +76,7 @@ class Queerness {
     }
 }
 
-// start the script
+// start the script when ready
 var queer = new Queerness();
 queer.init();
+

@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Wenn dieses Addon aktiv ist, wähle eine Flagge, um deinen neuen Tab bzw neues Fenster anzupassen in Google Chrome"
     },
+    "queerFlagInformationSources": {
+        "message": "Quellenangabe:"
+    },
     "pageIndexTitle": {
         "message": "Neuer Queerness Tab"
     },
