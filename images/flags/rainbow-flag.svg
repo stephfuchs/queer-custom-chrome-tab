@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.53 297.64">
-	<rect fill="#6E2381" height="297.638" width="419.528"/>
-	<rect fill="#2E57A4" height="248.031" width="419.528"/>
-	<rect fill="#028137" height="198.425" width="419.527"/>
-	<rect fill="#FFED00" height="148.819" width="419.527"/>
-	<rect fill="#F18815" height="99.212" width="419.527"/>
-	<rect fill="#E30613" height="49.606" width="419.528"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6000 3810">
+	<rect fill="#6E2381" width="6000" height="3810"/>
+	<rect fill="#2E57A4" width="6000" height="3175"/>
+	<rect fill="#028137" width="6000" height="2540"/>
+	<rect fill="#FFED00" width="6000" height="1905"/>
+	<rect fill="#F18815" width="6000" height="1270"/>
+	<rect fill="#E30613" width="6000" height="635"/>
 </svg>
