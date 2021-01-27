@@ -12,7 +12,7 @@ already knew and maybe not. Kinda fun, huh?
 
 Currently this extension is not available in the Chrome Webstore. But will soon.
 
-In the mean time you can add it manually to chrome. That means, you have to download it first. Go
+In the meantime you can add it manually to chrome. That means, you have to download it first. Go
 to [Releases](https://github.com/stephfuchs/queer-custom-chrome-tab/releases) and download the latest version to your
 Computer.
 
@@ -26,7 +26,8 @@ the template. Just choose "yes" and it will update.
 
 ## Content
 
-This content is a result of researches. All sources will be noticed, so you can inform yourself, if you want to.
+This content is a result of researches. All sources will be added under _sources_, so you can inform yourself, if you
+want to.
 
 ### Updates
 
