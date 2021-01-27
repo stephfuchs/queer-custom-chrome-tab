@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+### Added
+
+- includes flags for
+    - lesbian
+    - pan
+    - non-binary
+    - trans
+    - bi
+
 ### Changed
 
 - update Read Me page

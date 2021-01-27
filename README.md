@@ -22,7 +22,7 @@ Computer.
 1. Click the **LOAD UNPACKED** button and select the extension directory.
 
 That's it. You can now open a new tab or new window. There will be a popup which asks you whether you want to replace
-the template. Just choose "yes" and it will update.
+the template. Just choose the option to replace the default with the extension and it will update.
 
 ## Content
 
