@@ -17,6 +17,7 @@
     - polysexual
     - hetero
     - straight-ally
+    - genderfluid
 
 ### Changed
 
