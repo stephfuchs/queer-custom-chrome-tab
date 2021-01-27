@@ -6,9 +6,9 @@
 	<rect fill="#F18815" width="6000" height="1270"/>
 	<rect fill="#E30613" width="6000" height="635"/>
 
-	<polygon points="-1,960 950,1905 -1,2850" fill="#ffffff"/>
-	<polygon points="-1,960 -1,480 1420,1905 -1,3330 -1,2850 950,1905" fill="#ffafc8"/>
-	<polygon points="-1,480 -1,0 1912,1905 -1,3810 -1,3330 1420,1905 -1,480" fill="#74d7ee"/>
-	<polygon points="-1,0 1912,1905 -1,3810 480,3810 2384,1905 480,0" fill="#613915"/>
-	<polygon points="480,0 960,0 2864,1905 960,3810 480,3810 2384 1905 480,0" fill="#000000"/>
+	<polygon points="0,-1000 0,4810 3000,1905" style="fill:#000000;"/>
+	<polygon points="0,-500 0,4310 2500,1905" style="fill:#613915;"/>
+	<polygon points="0,0 0,3810 2000,1905" style="fill:#74d7ee;"/>
+	<polygon points="0,500 0,3310 1500,1905" style="fill:#ffafc8;"/>
+	<polygon points="0,1000 0,2810 1000,1905" style="fill:#FFFFFF;"/>
 </svg>

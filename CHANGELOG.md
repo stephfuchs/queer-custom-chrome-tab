@@ -17,6 +17,7 @@
 
 ### Changed
 
+- update SVG structure for Progress Pride Flag
 - update Read Me page
 - change version in manifest.json to 1.0.0 so you can add it to Chrome Extensions
 
