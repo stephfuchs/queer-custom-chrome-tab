@@ -15,6 +15,7 @@
     - agender
     - demisexual
     - polysexual
+    - hetero
 
 ### Changed
 
