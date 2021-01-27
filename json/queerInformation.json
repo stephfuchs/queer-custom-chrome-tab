@@ -1,75 +1,69 @@
 {
     "queerInformationPicker": [
+        "flags/agender_flag",
+        "flags/ace_flag",
+        "flags/philadelphia_flag",
         "flags/progress_flag",
         "flags/rainbow_flag",
-        "flags/philadelphia_flag",
         "terms/lgbtqia"
     ],
-    "flags/progress_flag": {
-        "en": {
-            "queer_flag_title": "Progress Pride Flag",
-            "queer_flag_information": "Was designed in 2018 by Daniel Quasar.",
+    "flags/ace_flag": {
+        "de": {
+            "queer_flag_title": "Asexuell Pride Flagge",
+            "queer_flag_information": "<p>Nachdem die Flagge 2010 gestaltet wurde, wurde in einem Forum darüber abgestimmt. Schwarz steht für Asexualität, grau für das a-sexuelle Spektrum, weiß für die Sexualität und lila für die Gemeinschaft.</p><p>Asexualität bedeutet, dass die Person keine sexuelle Anziehung anderen gegenüber verspührt. Asexuell ist ein Spektrum, man kann daher nicht sagen, es klar definiert, wie Asexuelle empfinden. Zu diesem Spektrum gehört beispielsweise auch demisexuell.</p><p>Das größte <strong>Vorurteil</strong> gegenüber Asexuellen ist, dass sie keinen/niemals Sex wollen. Asexualität ist eine sexuelle Orientierung und sagt nichts darüber aus, wie stark oder schwach das Verlangen nach Sex per se ist.</p>",
             "queer_flag_information_copyright_list": [
-                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
-                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+                "https://asexualitaet.wordpress.com/2020/12/28/was-ist-asexualitat-das-asexuelle-1x1/",
+                "https://www.uis.edu/gendersexualitystudentservices/",
+                "https://queer-lexikon.net/pride-flags/"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/progress-flag.svg",
-                "queer_flag_image_alt": "image of progress pride flag"
+                "queer_flag_image_src": "images/flags/ace-flag.svg",
+                "queer_flag_image_alt": "Bild der Ace Flagge"
             }
         },
-        "de": {
-            "queer_flag_title": "Progress Pride Flagge",
-            "queer_flag_information": "2018 gestaltet von Daniel Quasar.",
+        "en": {
+            "queer_flag_title": "Asexual Pride Flag",
+            "queer_flag_information": "<p>When in 2010 the flag was designed, people in a forum voted for it. Black means a-sexuality, grey stands for the a-sexual spectrum, white for the sexuality and purple for the community.</p><p>A-sexuality (ace) means, have no sexual attraction towards others. But, asexual is a spectrum. That is why you cannot define what kind of attraction someone in which situation has. Demisexual is a part of that spectrum.</p><p>One of the biggest <strong>rumour</strong> is that asexual people don't want sex anyway. That is wrong because asexuality is a sexual orientation and says nothing about the need of sex in general.</p>",
             "queer_flag_information_copyright_list": [
-                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
-                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+                "https://asexualitaet.wordpress.com/2020/12/28/was-ist-asexualitat-das-asexuelle-1x1/",
+                "https://www.uis.edu/gendersexualitystudentservices/",
+                "https://queer-lexikon.net/pride-flags/"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/progress-flag.svg",
-                "queer_flag_image_alt": "Bild der Progress Pride Flagge"
+                "queer_flag_image_src": "images/flags/ace-flag.svg",
+                "queer_flag_image_alt": "Bild der Ace Flagge"
             }
         }
     },
-    "flags/rainbow_flag": {
-        "en": {
-            "queer_flag_title": "Rainbow Flag",
-            "queer_flag_information": "The original flag had 8 stripes designed by Gilbert Baker in 1978. Since 1979 well-known with 6 stripes for the whole LGBTQIA+ community.",
+    "flags/agender_flag": {
+        "de": {
+            "queer_flag_title": "Agender Pride Flagge",
+            "queer_flag_information": "<p>Die Flagge wurde 2014 von Salem X/\"Ska\" gestaltet. Dabei bedeuten schwarz und weiß die Abwesenheit des Gender, grau bedeutet halbwegs genderlos und grün steht für Non-Binary (grün ist ein invertiertes lila, welches für die Vermischung von blau und rot steht).</p><p>Agender oder A-gender bedeutet, dass eine Person innerlich keinem Gender zugehörig ist.</p>",
             "queer_flag_information_copyright_list": [
-                "https://queer-lexikon.net/pride-flags/",
-                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+                "https://www.uis.edu/gendersexualitystudentservices/",
+                "https://gender.wikia.org/wiki/Pride_Flags#Agender_Flag",
+                "https://queer-lexikon.net/pride-flags/"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/rainbow-flag.svg",
-                "queer_flag_image_alt": "image of the rainbow flag"
+                "queer_flag_image_src": "images/flags/agender-flag.svg",
+                "queer_flag_image_alt": "Bild der Agender Flagge"
             }
         },
-        "de": {
-            "queer_flag_title": "Regenbogenfahne",
-            "queer_flag_information": "Im Original mit 8 Streifen. Wurde 1978 von Gilbert Baker gestaltet. Seit 1979 besser bekannt mit 6 Streifen und als Zeichen der gesamten LGBTQIA+ Community.",
+        "en": {
+            "queer_flag_title": "Agender Pride Flag",
+            "queer_flag_information": "<p>The agender flag was created in 2014 by Salem X/\"Ska\". The colors black and white are a symbol for no gender, while grey represents semi-genderless. Green is for nonbinary because it's the inverted purple wich is a mixture of the gendered blue and red).</p><p>Agender, agendered or A-gender means that the person internally doesn't define any gender-belonging for themself.</p>",
             "queer_flag_information_copyright_list": [
-                "https://queer-lexikon.net/pride-flags/",
-                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+                "https://www.uis.edu/gendersexualitystudentservices/",
+                "https://gender.wikia.org/wiki/Pride_Flags#Agender_Flag",
+                "https://queer-lexikon.net/pride-flags/"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/rainbow-flag.svg",
-                "queer_flag_image_alt": "Bild der Regenbogenfahne"
+                "queer_flag_image_src": "images/flags/agender-flag.svg",
+                "queer_flag_image_alt": "image of the agender flag"
             }
         }
     },
     "flags/philadelphia_flag": {
-        "en": {
-            "queer_flag_title": "Philadelphia People Of Color Inclusive Flag",
-            "queer_flag_information": "The US-city Philadelphia added the colors brown and black to honor the BiPoC within the queer community.",
-            "queer_flag_information_copyright_list": [
-                "https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0#media-gallery-media-5",
-                "https://www.instagram.com/p/Bift3XqBRIE/"
-            ],
-            "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/philadelphia-rainbow-flag.svg",
-                "queer_flag_image_alt": "image of the Philadelphia People Of Color Inclusive Flag"
-            }
-        },
         "de": {
             "queer_flag_title": "Philadelphia People Of Color Inclusive Flagge",
             "queer_flag_information": "Die Farben braun und schwarz wurden durch die US-Stadt Philadelphia ergänzt. Diese Variante der Regenbogenfahne schließt alle Hautfarben der queeren Community mit ein.",
@@ -81,20 +75,73 @@
                 "queer_flag_image_src": "images/flags/philadelphia-rainbow-flag.svg",
                 "queer_flag_image_alt": "Bild der Philadelphia Fahne"
             }
+        },
+        "en": {
+            "queer_flag_title": "Philadelphia People Of Color Inclusive Flag",
+            "queer_flag_information": "The US-city Philadelphia added the colors brown and black to honor the BiPoC within the queer community.",
+            "queer_flag_information_copyright_list": [
+                "https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0#media-gallery-media-5",
+                "https://www.instagram.com/p/Bift3XqBRIE/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/philadelphia-rainbow-flag.svg",
+                "queer_flag_image_alt": "image of the Philadelphia People Of Color Inclusive Flag"
+            }
+        }
+    },
+    "flags/progress_flag": {
+        "de": {
+            "queer_flag_title": "Progress Pride Flagge",
+            "queer_flag_information": "2018 gestaltet von Daniel Quasar.",
+            "queer_flag_information_copyright_list": [
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
+                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/progress-flag.svg",
+                "queer_flag_image_alt": "Bild der Progress Pride Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Progress Pride Flag",
+            "queer_flag_information": "Was designed in 2018 by Daniel Quasar.",
+            "queer_flag_information_copyright_list": [
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
+                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/progress-flag.svg",
+                "queer_flag_image_alt": "image of progress pride flag"
+            }
+        }
+    },
+    "flags/rainbow_flag": {
+        "de": {
+            "queer_flag_title": "Regenbogenfahne",
+            "queer_flag_information": "Im Original mit 8 Streifen. Wurde 1978 von Gilbert Baker gestaltet. Seit 1979 besser bekannt mit 6 Streifen und als Zeichen der gesamten LGBTQIA+ Community.",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/rainbow-flag.svg",
+                "queer_flag_image_alt": "Bild der Regenbogenfahne"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Rainbow Flag",
+            "queer_flag_information": "The original flag had 8 stripes designed by Gilbert Baker in 1978. Since 1979 well-known with 6 stripes for the whole LGBTQIA+ community.",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/rainbow-flag.svg",
+                "queer_flag_image_alt": "image of the rainbow flag"
+            }
         }
     },
     "terms/lgbtqia": {
-        "en": {
-            "queer_flag_title": "What is the meaning of 'LGBTQIA+'?",
-            "queer_flag_information": "<p>The acronym stands for the awareness of the whole queer community.</p><p><strong>L</strong>esbian<br><strong>G</strong>ay<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexual/-romantic<br><strong>+</strong> = Ally's (e.g. cis-hetero people)</p>",
-            "queer_flag_information_copyright_list": [
-                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
-            ],
-            "queer_flag_image": {
-                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
-                "queer_flag_image_alt": "image of the rainbow flag with the text LGBTQIA+"
-            }
-        },
         "de": {
             "queer_flag_title": "Was bedeutet 'LGBTQIA+'?",
             "queer_flag_information": "<p>Das Akronym steht für die Sichtbarkeit einzelner Bereich der queeren Community.</p><p><strong>L</strong>esbian (lesbisch)<br><strong>G</strong>ay (schwul)<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexuell/-romantisch<br><strong>+</strong> = Ally's (Verbündete der Community, die z.B. cis-hetero sind)</p>",
@@ -104,6 +151,17 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
                 "queer_flag_image_alt": "Bild der Regenbogenfahne mit dem Text für LGBTQIA+"
+            }
+        },
+        "en": {
+            "queer_flag_title": "What is the meaning of 'LGBTQIA+'?",
+            "queer_flag_information": "<p>The acronym stands for the awareness of the whole queer community.</p><p><strong>L</strong>esbian<br><strong>G</strong>ay<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexual/-romantic<br><strong>+</strong> = Ally's (e.g. cis-hetero people)</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
+                "queer_flag_image_alt": "image of the rainbow flag with the text LGBTQIA+"
             }
         }
     }
