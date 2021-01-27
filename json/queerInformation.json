@@ -70,7 +70,7 @@
         },
         "de": {
             "queer_flag_title": "Was bedeutet 'LGBTQIA+'?",
-            "queer_flag_information": "<p>Das Akronym steht für die Sichtbarkeit einzelner Bereich der queeren Community.</p><p><strong>L</strong>esbian (lesbisch)<br><strong>G</strong>ay (schwul)<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersexuell<br><strong>A</strong>-sexuell/-romantisch)<br><strong>+</strong> = Ally's (Verbündete der Community, die z.B. cis-hetero sind)</p>",
+            "queer_flag_information": "<p>Das Akronym steht für die Sichtbarkeit einzelner Bereich der queeren Community.</p><p><strong>L</strong>esbian (lesbisch)<br><strong>G</strong>ay (schwul)<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersexuell<br><strong>A</strong>-sexuell/-romantisch<br><strong>+</strong> = Ally's (Verbündete der Community, die z.B. cis-hetero sind)</p>",
             "queer_flag_information_copyright_list": [
                 "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
             ],
