@@ -12,7 +12,7 @@
                 "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "flags/progress-flag.svg",
+                "queer_flag_image_src": "images/flags/progress-flag.svg",
                 "queer_flag_image_alt": "image of progress pride flag"
             }
         },
@@ -24,7 +24,7 @@
                 "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "flags/progress-flag.svg",
+                "queer_flag_image_src": "images/flags/progress-flag.svg",
                 "queer_flag_image_alt": "Bild der Progress Pride Flagge"
             }
         }
@@ -38,7 +38,7 @@
                 "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "flags/rainbow-flag.svg",
+                "queer_flag_image_src": "images/flags/rainbow-flag.svg",
                 "queer_flag_image_alt": "image of the rainbow flag"
             }
         },
@@ -50,7 +50,7 @@
                 "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
             ],
             "queer_flag_image": {
-                "queer_flag_image_src": "flags/rainbow-flag.svg",
+                "queer_flag_image_src": "images/flags/rainbow-flag.svg",
                 "queer_flag_image_alt": "Bild der Regenbogenfahne"
             }
         }
