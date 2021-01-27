@@ -1,7 +1,8 @@
 {
     "queerInformationPicker": [
         "flags/progress_flag",
-        "flags/rainbow_flag"
+        "flags/rainbow_flag",
+        "terms/lgbtqia"
     ],
     "flags/progress_flag": {
         "en": {
@@ -52,6 +53,30 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/rainbow-flag.svg",
                 "queer_flag_image_alt": "Bild der Regenbogenfahne"
+            }
+        }
+    },
+    "terms/lgbtqia": {
+        "en": {
+            "queer_flag_title": "What is the meaning of 'LGBTQIA+'?",
+            "queer_flag_information": "<p>The acronym stands for the awareness of the whole queer community.</p><p><strong>L</strong>esbian<br><strong>G</strong>ay<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersexual<br><strong>A</strong>-sexual/-romantic<br><strong>+</strong> = Ally's (e.g. cis-hetero people)</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
+                "queer_flag_image_alt": "image of the rainbow flag with the text LGBTQIA+"
+            }
+        },
+        "de": {
+            "queer_flag_title": "Was bedeutet 'LGBTQIA+'?",
+            "queer_flag_information": "<p>Das Akronym steht für die Sichtbarkeit einzelner Bereich der queeren Community.</p><p><strong>L</strong>esbian (lesbisch)<br><strong>G</strong>ay (schwul)<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersexuell<br><strong>A</strong>-sexuell/-romantisch)<br><strong>+</strong> = Ally's (Verbündete der Community, die z.B. cis-hetero sind)</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
+                "queer_flag_image_alt": "Bild der Regenbogenfahne mit dem Text für LGBTQIA+"
             }
         }
     }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.53 297.64">
+	<style>
+		#svg-text {
+		font-family: 'Lato', sans-serif;
+		font-size: 50px;
+		text-shadow: 0 0 20px #565656;
+		}
+	</style>
+	<g>
+		<rect fill="#6E2381" height="297.638" width="419.528"/>
+		<rect fill="#2E57A4" height="248.031" width="419.528"/>
+		<rect fill="#028137" height="198.425" width="419.527"/>
+		<rect fill="#FFED00" height="148.819" width="419.527"/>
+		<rect fill="#F18815" height="99.212" width="419.527"/>
+		<rect fill="#E30613" height="49.606" width="419.528"/>
+		<text x="22%" y="55%" id="svg-text" fill="#ffffff">
+			LGBTQIA+
+		</text>
+	</g>
+</svg>

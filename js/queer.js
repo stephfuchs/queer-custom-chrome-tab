@@ -50,8 +50,8 @@ class Queerness {
      * @private
      */
     _setQueerInformation(jsonQueerInformation) {
-        this._setInnerText('queer-flag-title', jsonQueerInformation.queer_flag_title);
-        this._setInnerText('queer-flag-information', jsonQueerInformation.queer_flag_information);
+        this._setInnerHtml('queer-flag-title', jsonQueerInformation.queer_flag_title);
+        this._setInnerHtml('queer-flag-information', jsonQueerInformation.queer_flag_information);
 
         document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.queer_flag_image.queer_flag_image_src);
         document.getElementById('queer-flag-image').setAttribute('alt', jsonQueerInformation.queer_flag_image.queer_flag_image_alt);
@@ -102,17 +102,6 @@ class Queerness {
      */
     _setInnerHtml(elementId, html) {
         document.getElementById(elementId).innerHTML = html;
-    }
-
-    /**
-     * Set the inner text of an element by a given ID.
-     *
-     * @param elementId
-     * @param text
-     * @private
-     */
-    _setInnerText(elementId, text) {
-        document.getElementById(elementId).innerText = text;
     }
 
     /**

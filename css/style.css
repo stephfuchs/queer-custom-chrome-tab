@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700 !important;
 }
 
+strong, #queer-flag-information-sources {
+    font-weight: 700 !important;
+}
+
 .page-queer-title-container {
     margin-bottom: 0 !important;
 }
