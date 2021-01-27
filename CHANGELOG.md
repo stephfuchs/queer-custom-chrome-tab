@@ -2,6 +2,31 @@
 
 ## Unreleased
 
+## [1.0.0-rc.2](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.2)
+
+### Added
+
+- includes flags for
+    - lesbian
+    - pan
+    - non-binary
+    - trans
+    - bi
+    - ace
+    - aro
+    - agender
+    - demisexual
+    - polysexual
+    - hetero
+    - straight-ally
+    - genderfluid
+
+### Changed
+
+- update SVG structure for Progress Pride Flag
+- update Read Me page
+- change version in manifest.json to 1.0.0 so you can add it to Chrome Extensions
+
 ## [1.0.0-rc.1](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.1)
 
 ### Added

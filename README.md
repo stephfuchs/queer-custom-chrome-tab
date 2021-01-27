@@ -12,7 +12,7 @@ already knew and maybe not. Kinda fun, huh?
 
 Currently this extension is not available in the Chrome Webstore. But will soon.
 
-In the mean time you can add it manually to chrome. That means, you have to download it first. Go
+In the meantime you can add it manually to chrome. That means, you have to download it first. Go
 to [Releases](https://github.com/stephfuchs/queer-custom-chrome-tab/releases) and download the latest version to your
 Computer.
 
@@ -22,11 +22,12 @@ Computer.
 1. Click the **LOAD UNPACKED** button and select the extension directory.
 
 That's it. You can now open a new tab or new window. There will be a popup which asks you whether you want to replace
-the template. Just choose "yes" and it will update.
+the template. Just choose the option to replace the default with the extension and it will update.
 
 ## Content
 
-This content is a result of researches. All sources will be noticed, so you can inform yourself, if you want to.
+This content is a result of researches. All sources will be added under _sources_, so you can inform yourself, if you
+want to.
 
 ### Updates
 
@@ -39,6 +40,7 @@ The content is generated dynamic by JavaScript (based on
 ES6 ([ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)) and a random output. The template is based on jumbotron
 by [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/). All flags
 are [SVG](https://www.w3schools.com/graphics/svg_intro.asp) files.
+On [gist](https://gist.github.com/stephfuchs/6bf85c1f48ebd270fa029469e23c7434) I saved them so you can use them as well.
 
 ## Translation
 

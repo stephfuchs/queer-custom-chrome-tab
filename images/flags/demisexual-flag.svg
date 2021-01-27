@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 3175">
+	<!-- height of each element = 635-->
+	<rect fill="#808080" width="5000" height="3175"/>
+	<rect fill="#993399" width="5000" height="1905"/>
+	<rect fill="#FFFFFF" width="5000" height="1270"/>
+	<!-- (x,y) // top = (0,0), bottom = (0,max-height), arrow = (1/3 of max-width, height-of-element minus (635/2))	-->
+	<polygon points="0,0 0,3175 1666.6,1587.5" style="fill:#000000;"/>
+</svg>
