@@ -14,6 +14,7 @@
     - aro
     - agender
     - demisexual
+    - polysexual
 
 ### Changed
 
