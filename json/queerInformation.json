@@ -2,6 +2,7 @@
     "queerInformationPicker": [
         "flags/progress_flag",
         "flags/rainbow_flag",
+        "flags/philadelphia_flag",
         "terms/lgbtqia"
     ],
     "flags/progress_flag": {
@@ -53,6 +54,32 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/rainbow-flag.svg",
                 "queer_flag_image_alt": "Bild der Regenbogenfahne"
+            }
+        }
+    },
+    "flags/philadelphia_flag": {
+        "en": {
+            "queer_flag_title": "Philadelphia People Of Color Inclusive Flag",
+            "queer_flag_information": "The US-city Philadelphia added the colors brown and black to honor the BiPoC within the queer community.",
+            "queer_flag_information_copyright_list": [
+                "https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0#media-gallery-media-5",
+                "https://www.instagram.com/p/Bift3XqBRIE/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/philadelphia-rainbow-flag.svg",
+                "queer_flag_image_alt": "image of the Philadelphia People Of Color Inclusive Flag"
+            }
+        },
+        "de": {
+            "queer_flag_title": "Philadelphia People Of Color Inclusive Flagge",
+            "queer_flag_information": "Die Farben braun und schwarz wurden durch die US-Stadt Philadelphia ergänzt. Diese Variante der Regenbogenfahne schließt alle Hautfarben der queeren Community mit ein.",
+            "queer_flag_information_copyright_list": [
+                "https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0#media-gallery-media-5",
+                "https://www.instagram.com/p/Bift3XqBRIE/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/philadelphia-rainbow-flag.svg",
+                "queer_flag_image_alt": "Bild der Philadelphia Fahne"
             }
         }
     },
