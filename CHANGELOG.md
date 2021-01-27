@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+### Changed
+
+- update Read Me page
+- change version in manifest.json to 1.0.0 so you can add it to Chrome Extensions
+
 ## [1.0.0-rc.1](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.1)
 
 ### Added
