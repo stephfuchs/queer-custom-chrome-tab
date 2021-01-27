@@ -16,6 +16,7 @@
     - demisexual
     - polysexual
     - hetero
+    - straight-ally
 
 ### Changed
 
