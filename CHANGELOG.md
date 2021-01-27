@@ -12,6 +12,8 @@
     - bi
     - ace
     - aro
+    - agender
+    - demisexual
 
 ### Changed
 
