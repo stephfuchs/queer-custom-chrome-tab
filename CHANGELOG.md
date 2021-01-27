@@ -10,6 +10,8 @@
     - non-binary
     - trans
     - bi
+    - ace
+    - aro
 
 ### Changed
 
