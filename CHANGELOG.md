@@ -4,6 +4,8 @@
 
 ## [1.0.0-rc.1](https://github.com/stephfuchs/queer-custom-chrome-tab/tree/1.0.0-rc.1)
 
+### Added
+
 - add initial project
 - includes information for
     - flags:
