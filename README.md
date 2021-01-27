@@ -38,8 +38,9 @@ So stay tuned.
 
 The content is generated dynamic by JavaScript (based on
 ES6 ([ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)) and a random output. The template is based on jumbotron
-by [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/). All flags and flags with terms
+by [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/). All flags
 are [SVG](https://www.w3schools.com/graphics/svg_intro.asp) files.
+On [gist](https://gist.github.com/stephfuchs/6bf85c1f48ebd270fa029469e23c7434) I saved them so you can use them as well.
 
 ## Translation
 
