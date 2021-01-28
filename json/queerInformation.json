@@ -66,7 +66,7 @@
     "flags/philadelphia_flag": {
         "de": {
             "queer_flag_title": "Philadelphia People Of Color Inclusive Flagge",
-            "queer_flag_information": "Die Farben braun und schwarz wurden durch die US-Stadt Philadelphia ergänzt. Diese Variante der Regenbogenfahne schließt alle Hautfarben der queeren Community mit ein.",
+            "queer_flag_information": "<p>Erstes Erscheinen dieser Regenbogenfahnen Variante war beim Pride Month 2017 in Philadelphia (USA) von der Kampagne \"More Colors - More Pride\" mit dem Ziel, die BiPoC innerhalb der LGBTQIA+ community sichtbar zu machen.</p><p>Die Farben braun und schwarz wurden durch die US-Stadt Philadelphia ergänzt. Diese Variante der Regenbogenfahne schließt alle Hautfarben der queeren Community mit ein.</p>",
             "queer_flag_information_copyright_list": [
                 "https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0#media-gallery-media-5",
                 "https://www.instagram.com/p/Bift3XqBRIE/"
@@ -78,7 +78,7 @@
         },
         "en": {
             "queer_flag_title": "Philadelphia People Of Color Inclusive Flag",
-            "queer_flag_information": "The US-city Philadelphia added the colors brown and black to honor the BiPoC within the queer community.",
+            "queer_flag_information": "<p>First known was in Philadelphia (USA) at the Pride Month 2017. The campagne \"More Color - More Pride\" wanted more awareness for the BiPoC within the LGBTQIA+ Community.</p><p>The US-city Philadelphia added the colors brown and black to honor the BiPoC within the queer community.</p>",
             "queer_flag_information_copyright_list": [
                 "https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0#media-gallery-media-5",
                 "https://www.instagram.com/p/Bift3XqBRIE/"
@@ -92,10 +92,11 @@
     "flags/progress_flag": {
         "de": {
             "queer_flag_title": "Progress Pride Flagge",
-            "queer_flag_information": "2018 gestaltet von Daniel Quasar.",
+            "queer_flag_information": "<p>2018 gestaltet von Daniel Quasar (non-binary Grafikdesign).</p><p>Der Gedanke dahinter: Sichtbarkeit der Problematik von BiPoC und trans Menschen innerhalb der LGBTQIA+ community, daher der \"Keil\" in den trans-Farben und die Adaption von braun und schwarz aus der Philadelphia-Flagge. Zusätzlich gilt der schwarze Streifen als Repräsentation der Menschen, die mit AIDS und dem dazugehörigen Stigma leben/verstarben.</p>",
             "queer_flag_information_copyright_list": [
                 "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
-                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+                "https://quasar.digital/progress-initiative/?v=a284e24d5f46",
+                "https://queer-lexikon.net/pride-flags/"
             ],
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/progress-flag.svg",
@@ -104,10 +105,11 @@
         },
         "en": {
             "queer_flag_title": "Progress Pride Flag",
-            "queer_flag_information": "Was designed in 2018 by Daniel Quasar.",
+            "queer_flag_information": "<p>Was designed in 2018 by Daniel Quasar (nonbinary graphic designer).</p><p>That flag shows the discrimination betweetn the LGBTQIA+ community and their trans and BiPoC member. The triangle on the left is in the color for the trans and BiPoC members. Also the brown and black are linked to the Philadelphia rainbow flag. The black stripe als represents the people who used to handle AIDS.</p>",
             "queer_flag_information_copyright_list": [
                 "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#2010s",
-                "https://quasar.digital/progress-initiative/?v=a284e24d5f46"
+                "https://quasar.digital/progress-initiative/?v=a284e24d5f46",
+                "https://queer-lexikon.net/pride-flags/"
             ],
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/progress-flag.svg",
@@ -118,10 +120,11 @@
     "flags/rainbow_flag": {
         "de": {
             "queer_flag_title": "Regenbogenfahne",
-            "queer_flag_information": "Im Original mit 8 Streifen. Wurde 1978 von Gilbert Baker gestaltet. Seit 1979 besser bekannt mit 6 Streifen und als Zeichen der gesamten LGBTQIA+ Community.",
+            "queer_flag_information": "<p>Im Original mit 8 Streifen. Wurde 1978 von Gilbert Baker gestaltet. Seit 1979 besser bekannt mit 6 Streifen und als Zeichen der gesamten LGBTQIA+ Community.</p><p>In Italien gibt es die Variante mit dem Aufdruck \"PACE\" und steht für Frieden. Es wurde in Italien erstmals in 1961 beim Friedensmarch verwendet. Es war und ist ein Zeichen des Friedens und gegen den Krieg.</p>",
             "queer_flag_information_copyright_list": [
                 "https://queer-lexikon.net/pride-flags/",
-                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin",
+                "https://en.wikipedia.org/wiki/Peace_flag"
             ],
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/rainbow-flag.svg",
@@ -130,10 +133,11 @@
         },
         "en": {
             "queer_flag_title": "Rainbow Flag",
-            "queer_flag_information": "The original flag had 8 stripes designed by Gilbert Baker in 1978. Since 1979 well-known with 6 stripes for the whole LGBTQIA+ community.",
+            "queer_flag_information": "<p>The original flag had 8 stripes designed by Gilbert Baker in 1978. Since 1979 well-known with 6 stripes for the whole LGBTQIA+ community.</p><p>In Italy that flag is extended with \"PACE\" and stands for peace. First used at a peace march in 1961. It was and is a symbol for peace and against war.</p>",
             "queer_flag_information_copyright_list": [
                 "https://queer-lexikon.net/pride-flags/",
-                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin"
+                "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Origin",
+                "https://en.wikipedia.org/wiki/Peace_flag"
             ],
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/rainbow-flag.svg",
