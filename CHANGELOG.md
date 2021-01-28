@@ -2,10 +2,9 @@
 
 ## Unreleased
 
-### Added
+### Changed
 
-- information for flags
-    - progress rainbow
+- update information for flags
 
 ## [1.0.0-rc.2](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.2)
 
