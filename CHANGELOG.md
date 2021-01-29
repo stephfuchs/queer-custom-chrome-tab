@@ -1,6 +1,17 @@
 # Changelog
 
-## Unreleased
+## [Unreleased]
+
+## [1.0.0-rc.3](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.3)
+
+### Added
+
+- add information for ACE
+- add information for lesbian-flag and lesbian
+
+### Changed
+
+- update information for flags already in the project
 
 ## [1.0.0-rc.2](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.2)
 
