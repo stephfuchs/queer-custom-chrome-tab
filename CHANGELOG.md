@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Added
+
+- information for
+  - gay men pride flag
+  - trans pride flag
+
 ### Changed
 
 - colors for 
