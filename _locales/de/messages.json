@@ -3,7 +3,7 @@
         "message": "neuer queerer Tab / neues queeres Fenster"
     },
     "extDescription": {
-        "message": "Wenn dieses Addon aktiv ist, wähle eine Flagge, um deinen neuen Tab bzw neues Fenster anzupassen in Google Chrome"
+        "message": "Das Addon überschreibt die chrome:://newTab Seite und generiert eine zufällige Seite mit Informationen zur queeren Community (auch bekannt als LGBTQIA+)."
     },
     "queerFlagInformationSources": {
         "message": "Quellenangabe:"
