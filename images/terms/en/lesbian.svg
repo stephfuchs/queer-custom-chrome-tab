@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 3175">
+	<style>
+		#svg-text {
+		font-family: 'Lato', sans-serif;
+		font-size: 1000px;
+		}
+	</style>
+	<g>
+		<rect fill="#b30086" width="5000" height="3175"/>
+		<rect fill="#ff66b3" width="5000" height="2540"/>
+		<rect fill="#FFFFFF" width="5000" height="1905"/>
+		<rect fill="#ff8533" width="5000" height="1270"/>
+		<rect fill="#e62e00" width="5000" height="635"/>
+		<text fill="#FFFFFF" stroke="#232323" stroke-width="30" x="800px" y="58%" id="svg-text">
+			Lesbian
+		</text>
+	</g>
+</svg>

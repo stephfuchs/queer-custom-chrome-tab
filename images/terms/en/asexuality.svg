@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4000 2540">
+	<style>
+		#svg-text {
+		font-family: 'Lato', sans-serif;
+		font-size: 800px;
+		}
+	</style>
+	<g>
+		<rect fill="#730099" width="4000" height="2540"/>
+		<rect fill="#FFFFFF" width="4000" height="1905"/>
+		<rect fill="#808080" width="4000" height="1270"/>
+		<rect fill="#000000" width="4000" height="635"/>
+		<text fill="#FFFFFF" stroke="#232323" stroke-width="30" x="200px" y="58%" id="svg-text">
+			Asexuality
+		</text>
+	</g>
+</svg>

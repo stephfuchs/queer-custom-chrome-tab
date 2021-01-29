@@ -2,17 +2,19 @@
     "queerInformationPicker": [
         "flags/agender_flag",
         "flags/ace_flag",
+        "flags/lesbian_flag",
         "flags/philadelphia_flag",
         "flags/progress_flag",
         "flags/rainbow_flag",
+        "terms/asexuality",
+        "terms/lesbian",
         "terms/lgbtqia"
     ],
     "flags/ace_flag": {
         "de": {
             "queer_flag_title": "Asexuell Pride Flagge",
-            "queer_flag_information": "<p>Nachdem die Flagge 2010 gestaltet wurde, wurde in einem Forum darüber abgestimmt. Schwarz steht für Asexualität, grau für das a-sexuelle Spektrum, weiß für die Sexualität und lila für die Gemeinschaft.</p><p>Asexualität bedeutet, dass die Person keine sexuelle Anziehung anderen gegenüber verspührt. Asexuell ist ein Spektrum, man kann daher nicht sagen, es klar definiert, wie Asexuelle empfinden. Zu diesem Spektrum gehört beispielsweise auch demisexuell.</p><p>Das größte <strong>Vorurteil</strong> gegenüber Asexuellen ist, dass sie keinen/niemals Sex wollen. Asexualität ist eine sexuelle Orientierung und sagt nichts darüber aus, wie stark oder schwach das Verlangen nach Sex per se ist.</p>",
+            "queer_flag_information": "<p>Nachdem die Flagge 2010 gestaltet wurde, wurde in einem Forum darüber abgestimmt. Schwarz steht für Asexualität, grau für das a-sexuelle Spektrum, weiß für die Sexualität und lila für die Gemeinschaft.</p>",
             "queer_flag_information_copyright_list": [
-                "https://asexualitaet.wordpress.com/2020/12/28/was-ist-asexualitat-das-asexuelle-1x1/",
                 "https://www.uis.edu/gendersexualitystudentservices/",
                 "https://queer-lexikon.net/pride-flags/"
             ],
@@ -23,9 +25,8 @@
         },
         "en": {
             "queer_flag_title": "Asexual Pride Flag",
-            "queer_flag_information": "<p>When in 2010 the flag was designed, people in a forum voted for it. Black means a-sexuality, grey stands for the a-sexual spectrum, white for the sexuality and purple for the community.</p><p>A-sexuality (ace) means, have no sexual attraction towards others. But, asexual is a spectrum. That is why you cannot define what kind of attraction someone in which situation has. Demisexual is a part of that spectrum.</p><p>One of the biggest <strong>rumour</strong> is that asexual people don't want sex anyway. That is wrong because asexuality is a sexual orientation and says nothing about the need of sex in general.</p>",
+            "queer_flag_information": "<p>When in 2010 the flag was designed, people in a forum voted for it. Black means a-sexuality, grey stands for the a-sexual spectrum, white for the sexuality and purple for the community.</p>",
             "queer_flag_information_copyright_list": [
-                "https://asexualitaet.wordpress.com/2020/12/28/was-ist-asexualitat-das-asexuelle-1x1/",
                 "https://www.uis.edu/gendersexualitystudentservices/",
                 "https://queer-lexikon.net/pride-flags/"
             ],
@@ -145,6 +146,32 @@
             }
         }
     },
+    "terms/asexuality": {
+        "de": {
+            "queer_flag_title": "Was bedeutet 'Asexualität'?",
+            "queer_flag_information": "<p>Asexualität (auch bekannt als 'Ace') bedeutet, dass die Person keine sexuelle Anziehung anderen gegenüber verspührt. Asexuell ist ein Spektrum, man kann daher nicht sagen, es klar definiert, wie Asexuelle empfinden. Zu diesem Spektrum gehört beispielsweise auch demisexuell.</p><p>Das größte <strong>Vorurteil</strong> gegenüber Asexuellen ist, dass sie keinen/niemals Sex wollen. Asexualität ist eine sexuelle Orientierung und sagt nichts darüber aus, wie stark oder schwach das Verlangen nach Sex per se ist.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://asexualitaet.wordpress.com/2020/12/28/was-ist-asexualitat-das-asexuelle-1x1/",
+                "https://www.uis.edu/gendersexualitystudentservices/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/de/asexuality.svg",
+                "queer_flag_image_alt": "Bild der Ace-Flagge mit dem Text für Ace"
+            }
+        },
+        "en": {
+            "queer_flag_title": "What is the meaning of 'Asexuality'?",
+            "queer_flag_information": "<p>Asexuality (also known as 'ace') means, have no sexual attraction towards others. But, asexual is a spectrum. That is why you cannot define what kind of attraction someone in which situation has. Demisexual is a part of that spectrum.</p><p>One of the biggest <strong>rumour</strong> is that asexual people don't want sex anyway. That is wrong because asexuality is a sexual orientation and says nothing about the need of sex in general.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://asexualitaet.wordpress.com/2020/12/28/was-ist-asexualitat-das-asexuelle-1x1/",
+                "https://www.uis.edu/gendersexualitystudentservices/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/en/asexuality.svg",
+                "queer_flag_image_alt": "Bild der Ace-Flagge mit dem Text für Ace"
+            }
+        }
+    },
     "terms/lgbtqia": {
         "de": {
             "queer_flag_title": "Was bedeutet 'LGBTQIA+'?",
@@ -166,6 +193,60 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
                 "queer_flag_image_alt": "image of the rainbow flag with the text LGBTQIA+"
+            }
+        }
+    },
+    "flags/lesbian_flag": {
+        "de": {
+            "queer_flag_title": "Lesben Pride Flagge",
+            "queer_flag_information": "<p>2018 wurde auf den Social Media Kanälen Twitter und Tumblr über eine neue Flagge für die Lesben-Community abgestimmt. Durchgesetzt hat sich das Design von Emily Gwen, die auch als 'sunset lesbian flag' bekannt ist. Die bis dato wenig beliebte Flagge der 'Lipstick Lesbian' (seit 2010) wurde damit abgelöst. Der Gedanke dahinter war zudem, dass sie inklusiver sein sollte.</p><p>1999 gab es die erste Flagge für Lesben, die bis heute in der Kritik steht u.a. wegen der Parallelen zu Zeichen aus der NS-Zeit</p>",
+            "queer_flag_information_copyright_list": [
+                "https://official-lesbian-flag.tumblr.com/",
+                "https://en.wikipedia.org/wiki/Lesbian_flag",
+                "https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/lesbian-flag.svg",
+                "queer_flag_image_alt": "Bild der lesbischen Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Lesbian Pride Flag",
+            "queer_flag_information": "<p>In 2018 there was a voting on Twitter and Tumblr to choose a new flag for the lesbian community. The design by Emily Gwen reached the most votes and is also known as 'sunset lesbian flag'. The less popular 'Lipstick Lesbian' flag was designed in 2010. The new version is also more inclusive.</p><p>The first lesbian flag was created in 1999. There are a lot of critics concerning the 1999s version because of some parallels to the forbidden symbols from the WW2</p>",
+            "queer_flag_information_copyright_list": [
+                "https://official-lesbian-flag.tumblr.com/",
+                "https://en.wikipedia.org/wiki/Lesbian_flag",
+                "https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/lesbian-flag.svg",
+                "queer_flag_image_alt": "image of lesbian flag "
+            }
+        }
+    },
+    "terms/lesbian": {
+        "de": {
+            "queer_flag_title": "Was bedeutet 'lesbisch'?",
+            "queer_flag_information": "<p>'Lesbisch' oder 'Lesbe' beschreibt die romantische, sexuelle und/oder emotionale Anziehung einer sich als Frau identifizierten Person gegenüber einer anderen sich als Frau identifizierenden Person. Der Begriff 'lesbian' wird von der griechischen Insel Lesbos abgeleitet.</p><p>Auf Lesbos gab es eine Dichterin namens Sappho, von der oft auch die lesbische Alternative 'Sapphic' abgeleitet wird. Bis heute ist die sexuelle Orientierung von Sappho umstritten. Unter den queeren Frauen gibt es dazu diverse Memes, dass Historiker:innen queere Beziehungen zwischen Frauen falsch festhielt, beispielsweise \"Sie waren sehr gute Freundinnen\", \"Sie waren WG-Mitbewohnerinnen\", \"Sie liebten sich wie Schwestern\".</p><p>Die lesbische Sichtbarkeit wird an vielen Stellen nicht betrachtet und falls doch, herrscht das Vorurteil, dass alle Frauen, die kein Interesse an Männern haben, oder sich 'nicht typisch weiblich' benehmen, lesbisch wären. Oft werden Lesben sexualisiert (u.a. wegen der Porno-Industrie) oder nicht als lesbisch ernst genommen.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/",
+                "queer.de/detail.php?article_id=32575"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/de/lesbian.svg",
+                "queer_flag_image_alt": "Bild der lesbischen Flagge mit Text"
+            }
+        },
+        "en": {
+            "queer_flag_title": "What is the meaning of 'lesbian'?",
+            "queer_flag_information": "<p>The term 'lesbian' describes the attraction (romantic, erotic, emotional) of female-identified persons towards other female-identified persons. 'Lesbian' refers to the Greek Isle Lesbos.</p><p>On Lesbos was also a poet called Sappho which refers to the alternate lesbian term 'sapphic'. Until today historians are not sure about the sexuality of Sappho. That's the reason why the community created a lot of memes e.g. 'they were just good friends', 'they were roommates', 'they love like sisters'.</p><p>There is also a huge problem of no relevant information about lesbian. Also there are a lot of rumors concerning being lesbian e.g. if a female is not interessted in male or 'not typical female' they must be lesbian. Plus lesbians are confronted with sexualization (especially because of pornos).</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/",
+                "queer.de/detail.php?article_id=32575"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/en/lesbian.svg",
+                "queer_flag_image_alt": "image of lesbian flag with text"
             }
         }
     }
