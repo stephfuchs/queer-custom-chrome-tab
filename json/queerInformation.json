@@ -1,7 +1,8 @@
 {
     "queerInformationPicker": [
-        "flags/agender_flag",
         "flags/ace_flag",
+        "flags/agender_flag",
+        "flags/gay_flag",
         "flags/lesbian_flag",
         "flags/philadelphia_flag",
         "flags/progress_flag",
@@ -61,6 +62,34 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/agender-flag.svg",
                 "queer_flag_image_alt": "image of the agender flag"
+            }
+        }
+    },
+    "flags/gay_flag": {
+        "de": {
+            "queer_flag_title": "Schwule Männer Pride Flagge",
+            "queer_flag_information": "<p>Der tumblr User 'gayflagblog' passte die Flagge (aus 2017) 2019 farblich an, damit es nicht wie die andere Version der Lipstick Lesbian Flagge aussieht. Das Ziel war es, die Grün-, Violett- und Blau-Töne besser zu unterscheiden. Mitte der 2010er erstellt der Schwulen-Aktivist Valentin Belyaev die erste Variante der Flagge für schwule Männer basierend auf die Flagge der Lipstick Lesbians. Sie  bestand nur aus Blau-Tönen.</p><p>Die wenigsten wissen, dass es eine explizite Flagge nur für schwule Männer gibt. Die meisten bezeichnen die Regenbogenfahne als Schwulen-Flagge, was sie viele Jahrzehnte war.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://cadehildreth.com/pride-flags/",
+                "https://lgbta.wikia.org/wiki/Gay",
+                "https://gayflagblog.tumblr.com/post/186181118619/gay-man-flag-russian-%D1%80%D0%BE%D1%81%D1%81%D0%B8-%D1%8F-portuguese"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/gay-flag.svg",
+                "queer_flag_image_alt": "Bild der schwulen Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Gay Men Pride Flagge",
+            "queer_flag_information": "<p>In 2019 tumblr user \"gayflagblog\" redesigned the version from 2017 to make it less look like a blue-version of the Lipstick Lesbian flag. The user changed the color intensity of the green, purple and blue. Mid-2010s the gay activist Valentin Belyaev has designed the first version as a blue version of the Lipstick Lesbian flag.</p><p>Most people don't know that there is a special gay men pride flag, so the most use the rainbow flag, which was the gay pride flag for centuries.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://cadehildreth.com/pride-flags/",
+                "https://lgbta.wikia.org/wiki/Gay",
+                "https://gayflagblog.tumblr.com/post/186181118619/gay-man-flag-russian-%D1%80%D0%BE%D1%81%D1%81%D0%B8-%D1%8F-portuguese"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/gay-flag.svg",
+                "queer_flag_image_alt": "image of gay men pride flag"
             }
         }
     },
@@ -198,7 +227,7 @@
     },
     "flags/lesbian_flag": {
         "de": {
-            "queer_flag_title": "Lesben Pride Flagge",
+            "queer_flag_title": "Lesbische Frauen Pride Flagge",
             "queer_flag_information": "<p>2018 wurde auf den Social Media Kanälen Twitter und Tumblr über eine neue Flagge für die Lesben-Community abgestimmt. Durchgesetzt hat sich das Design von Emily Gwen, die auch als 'sunset lesbian flag' bekannt ist. Die bis dato wenig beliebte Flagge der 'Lipstick Lesbian' (seit 2010) wurde damit abgelöst. Der Gedanke dahinter war zudem, dass sie inklusiver sein sollte.</p><p>1999 gab es die erste Flagge für Lesben, die bis heute in der Kritik steht u.a. wegen der Parallelen zu Zeichen aus der NS-Zeit</p>",
             "queer_flag_information_copyright_list": [
                 "https://official-lesbian-flag.tumblr.com/",
