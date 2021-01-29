@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.0-rc.3](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0-rc.3)
+
 ### Added
 
 - add information for ACE
