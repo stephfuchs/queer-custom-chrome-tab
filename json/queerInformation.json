@@ -33,7 +33,7 @@
             ],
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/ace-flag.svg",
-                "queer_flag_image_alt": "Bild der Ace Flagge"
+                "queer_flag_image_alt": "Image of the Ace Flag"
             }
         }
     },
@@ -90,6 +90,34 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/gay-flag.svg",
                 "queer_flag_image_alt": "image of gay men pride flag"
+            }
+        }
+    },
+    "flags/lesbian_flag": {
+        "de": {
+            "queer_flag_title": "Lesbische Frauen Pride Flagge",
+            "queer_flag_information": "<p>2018 wurde auf den Social Media Kanälen Twitter und Tumblr über eine neue Flagge für die Lesben-Community abgestimmt. Durchgesetzt hat sich das Design von Emily Gwen, die auch als 'sunset lesbian flag' bekannt ist. Die bis dato wenig beliebte Flagge der 'Lipstick Lesbian' (seit 2010) wurde damit abgelöst. Der Gedanke dahinter war zudem, dass sie inklusiver sein sollte.</p><p>1999 gab es die erste Flagge für Lesben, die bis heute in der Kritik steht u.a. wegen der Parallelen zu Zeichen aus der NS-Zeit</p>",
+            "queer_flag_information_copyright_list": [
+                "https://official-lesbian-flag.tumblr.com/",
+                "https://en.wikipedia.org/wiki/Lesbian_flag",
+                "https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/lesbian-flag.svg",
+                "queer_flag_image_alt": "Bild der lesbischen Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Lesbian Pride Flag",
+            "queer_flag_information": "<p>In 2018 there was a voting on Twitter and Tumblr to choose a new flag for the lesbian community. The design by Emily Gwen reached the most votes and is also known as 'sunset lesbian flag'. The less popular 'Lipstick Lesbian' flag was designed in 2010. The new version is also more inclusive.</p><p>The first lesbian flag was created in 1999. There are a lot of critics concerning the 1999s version because of some parallels to the forbidden symbols from the WW2</p>",
+            "queer_flag_information_copyright_list": [
+                "https://official-lesbian-flag.tumblr.com/",
+                "https://en.wikipedia.org/wiki/Lesbian_flag",
+                "https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/lesbian-flag.svg",
+                "queer_flag_image_alt": "image of lesbian flag "
             }
         }
     },
@@ -175,6 +203,30 @@
             }
         }
     },
+    "flags/trans_flag": {
+        "de": {
+            "queer_flag_title": "Transgender Pride Flagge",
+            "queer_flag_information": "<p>Die Transgender-Fahne, wie die meisten sie heutzutage kennen, wurde von der trans Frau Monica Helms 1999 gestaltet. Die blauen Streifen stehen für das männliche Sex, rosa für das weibliche Sex und weiß für non-binary und intersexuell. Allgemein soll die Reihenfolge für die Transition von dem einen zum anderen Gender symbolisieren.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://gender.wikia.org/wiki/Transgender"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/trans-flag.svg",
+                "queer_flag_image_alt": "Bild der Trans Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Transgender Pride Flag",
+            "queer_flag_information": "<p>The transgender flag was designed by trans woman Monica Helms in 1999. The blue stripes are for the male sex, pink for the female sex and white represents non-binary and intersex people. In General the order represents the transitioning.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://gender.wikia.org/wiki/Transgender"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/trans-flag.svg",
+                "queer_flag_image_alt": "Image of the trans Flag"
+            }
+        }
+    },
     "terms/asexuality": {
         "de": {
             "queer_flag_title": "Was bedeutet 'Asexualität'?",
@@ -201,58 +253,6 @@
             }
         }
     },
-    "terms/lgbtqia": {
-        "de": {
-            "queer_flag_title": "Was bedeutet 'LGBTQIA+'?",
-            "queer_flag_information": "<p>Das Akronym steht für die Sichtbarkeit einzelner Bereich der queeren Community.</p><p><strong>L</strong>esbian (lesbisch)<br><strong>G</strong>ay (schwul)<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexuell/-romantisch<br><strong>+</strong> = Ally's (Verbündete der Community, die z.B. cis-hetero sind)</p>",
-            "queer_flag_information_copyright_list": [
-                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
-            ],
-            "queer_flag_image": {
-                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
-                "queer_flag_image_alt": "Bild der Regenbogenfahne mit dem Text für LGBTQIA+"
-            }
-        },
-        "en": {
-            "queer_flag_title": "What is the meaning of 'LGBTQIA+'?",
-            "queer_flag_information": "<p>The acronym stands for the awareness of the whole queer community.</p><p><strong>L</strong>esbian<br><strong>G</strong>ay<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexual/-romantic<br><strong>+</strong> = Ally's (e.g. cis-hetero people)</p>",
-            "queer_flag_information_copyright_list": [
-                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
-            ],
-            "queer_flag_image": {
-                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
-                "queer_flag_image_alt": "image of the rainbow flag with the text LGBTQIA+"
-            }
-        }
-    },
-    "flags/lesbian_flag": {
-        "de": {
-            "queer_flag_title": "Lesbische Frauen Pride Flagge",
-            "queer_flag_information": "<p>2018 wurde auf den Social Media Kanälen Twitter und Tumblr über eine neue Flagge für die Lesben-Community abgestimmt. Durchgesetzt hat sich das Design von Emily Gwen, die auch als 'sunset lesbian flag' bekannt ist. Die bis dato wenig beliebte Flagge der 'Lipstick Lesbian' (seit 2010) wurde damit abgelöst. Der Gedanke dahinter war zudem, dass sie inklusiver sein sollte.</p><p>1999 gab es die erste Flagge für Lesben, die bis heute in der Kritik steht u.a. wegen der Parallelen zu Zeichen aus der NS-Zeit</p>",
-            "queer_flag_information_copyright_list": [
-                "https://official-lesbian-flag.tumblr.com/",
-                "https://en.wikipedia.org/wiki/Lesbian_flag",
-                "https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
-            ],
-            "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/lesbian-flag.svg",
-                "queer_flag_image_alt": "Bild der lesbischen Flagge"
-            }
-        },
-        "en": {
-            "queer_flag_title": "Lesbian Pride Flag",
-            "queer_flag_information": "<p>In 2018 there was a voting on Twitter and Tumblr to choose a new flag for the lesbian community. The design by Emily Gwen reached the most votes and is also known as 'sunset lesbian flag'. The less popular 'Lipstick Lesbian' flag was designed in 2010. The new version is also more inclusive.</p><p>The first lesbian flag was created in 1999. There are a lot of critics concerning the 1999s version because of some parallels to the forbidden symbols from the WW2</p>",
-            "queer_flag_information_copyright_list": [
-                "https://official-lesbian-flag.tumblr.com/",
-                "https://en.wikipedia.org/wiki/Lesbian_flag",
-                "https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
-            ],
-            "queer_flag_image": {
-                "queer_flag_image_src": "images/flags/lesbian-flag.svg",
-                "queer_flag_image_alt": "image of lesbian flag "
-            }
-        }
-    },
     "terms/lesbian": {
         "de": {
             "queer_flag_title": "Was bedeutet 'lesbisch'?",
@@ -276,6 +276,30 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/en/lesbian.svg",
                 "queer_flag_image_alt": "image of lesbian flag with text"
+            }
+        }
+    },
+    "terms/lgbtqia": {
+        "de": {
+            "queer_flag_title": "Was bedeutet 'LGBTQIA+'?",
+            "queer_flag_information": "<p>Das Akronym steht für die Sichtbarkeit einzelner Bereich der queeren Community.</p><p><strong>L</strong>esbian (lesbisch)<br><strong>G</strong>ay (schwul)<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexuell/-romantisch<br><strong>+</strong> = Ally's (Verbündete der Community, die z.B. cis-hetero sind)</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
+                "queer_flag_image_alt": "Bild der Regenbogenfahne mit dem Text für LGBTQIA+"
+            }
+        },
+        "en": {
+            "queer_flag_title": "What is the meaning of 'LGBTQIA+'?",
+            "queer_flag_information": "<p>The acronym stands for the awareness of the whole queer community.</p><p><strong>L</strong>esbian<br><strong>G</strong>ay<br><strong>B</strong>i<br><strong>T</strong>rans<br><strong>Q</strong>ueer<br><strong>I</strong>ntersex<br><strong>A</strong>-sexual/-romantic<br><strong>+</strong> = Ally's (e.g. cis-hetero people)</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/about/lgbtqaterminology/"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/terms/lgbtqia-plus.svg",
+                "queer_flag_image_alt": "image of the rainbow flag with the text LGBTQIA+"
             }
         }
     }
