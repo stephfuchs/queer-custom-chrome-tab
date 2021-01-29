@@ -3,6 +3,7 @@
         "flags/ace_flag",
         "flags/agender_flag",
         "flags/gay_flag",
+        "flags/intersex_flag",
         "flags/lesbian_flag",
         "flags/philadelphia_flag",
         "flags/progress_flag",
@@ -90,6 +91,32 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/gay-flag.svg",
                 "queer_flag_image_alt": "image of gay men pride flag"
+            }
+        }
+    },
+    "flags/intersex_flag": {
+        "de": {
+            "queer_flag_title": "Intersex Pride Flagge",
+            "queer_flag_information": "<p>2013 erstellt die \"Organisation Intersex International Australia\" eine alternative Flagge, die die meisten Menschen heutzutage kennen: gelb mit einem lila-farbenen Kreis. Die Farben sollen unabhängig von der herrkömmlichen Farbgebung für Gender stehen. Der Kreis steht für Vollkommenheit und Nicht-Brechbarkeit und das Recht darauf, dass Intersex Menschen so leben dürfen, wie sie geboren werden. Natalie Phox gestaltete 2009 die Intersex Pride Flagge, die aus 6 Streifen besteht.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://gender.wikia.org/wiki/Pride_Flags#Ingender_Flag"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/intersex-flag.svg",
+                "queer_flag_image_alt": "Bild der Intersex Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Intersex Pride Flag",
+            "queer_flag_information": "<p>2013 the \"Organisation Intersex International Australia\" created the well-known intersex flag with a yellow background and purple circle. They wanted to have a flag without the traditional colors for the male and female gender. The circle stands for the wholeness and completeness and also for the right of intersex people to be who they are.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://gender.wikia.org/wiki/Pride_Flags#Ingender_Flag"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/intersex-flag.svg",
+                "queer_flag_image_alt": "Image of the intersex Flag"
             }
         }
     },
