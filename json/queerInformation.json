@@ -2,6 +2,7 @@
     "queerInformationPicker": [
         "flags/ace_flag",
         "flags/agender_flag",
+        "flags/bi_flag",
         "flags/gay_flag",
         "flags/intersex_flag",
         "flags/lesbian_flag",
@@ -63,6 +64,34 @@
             "queer_flag_image": {
                 "queer_flag_image_src": "images/flags/agender-flag.svg",
                 "queer_flag_image_alt": "image of the agender flag"
+            }
+        }
+    },
+    "flags/bi_flag": {
+        "de": {
+            "queer_flag_title": "Bisexuell Pride Flagge",
+            "queer_flag_information": "<p>Im Jahr 1988 gestaltete Michael Page eine Flagge für bisexuelle Community. Die Farben zeigen die Anziehung zu den Gendern. Blau steht für die Anziehung zu einem anderen Geschlecht, pink für das gleiche geschlecht und lila für alle, die sich woanders im Genderspektrum zuordnen.</p><p>2020 beanspruchte das Unternehmen \"BiNET USA\" auf Twitter (gegründet 1990), dass die Flagge ihrem Patent unterliegen würde.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/",
+                "https://queer-lexikon.net/pride-flags/",
+                "https://twitter.com/BiNetUSA/status/1255317614139670529"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/bi-flag.svg",
+                "queer_flag_image_alt": "Bild der bisexuellen Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Bisexual Pride Flag",
+            "queer_flag_information": "<p>In 1988 Michael Page designed a flag for the bisexual community. The colors are representing the attraction towards all Gender. Blue is for another gender, pink for the same gender and purpls represents any other gender in the gender spectrum.</p><p>2020 \"BiNET USA\" (founded in 1990) claimed the rights on the flag on Twitter.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://www.uis.edu/gendersexualitystudentservices/",
+                "https://queer-lexikon.net/pride-flags/",
+                "https://twitter.com/BiNetUSA/status/1255317614139670529"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/bi-flag.svg",
+                "queer_flag_image_alt": "Image of the bisexual Flag"
             }
         }
     },
