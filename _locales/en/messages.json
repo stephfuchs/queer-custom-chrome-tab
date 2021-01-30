@@ -3,7 +3,7 @@
         "message": "new queer tab / new queer window"
     },
     "extDescription": {
-        "message": "When active you can choose a flag which will customize your new tab/window page in Google Chrome"
+        "message": "The extension overrides the chrome://newTab page and generates a random page with information about the queer community (aka LGBTQIA+)"
     },
     "queerFlagInformationSources": {
         "message": "Sources:"
