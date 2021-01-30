@@ -6,6 +6,7 @@
         "flags/gay_flag",
         "flags/intersex_flag",
         "flags/lesbian_flag",
+        "flags/nonbinary_flag",
         "flags/philadelphia_flag",
         "flags/progress_flag",
         "flags/rainbow_flag",
@@ -13,6 +14,32 @@
         "terms/lesbian",
         "terms/lgbtqia"
     ],
+    "flags/nonbinary_flag": {
+        "de": {
+            "queer_flag_title": "Nicht-Binäre Pride Flagge",
+            "queer_flag_information": "<p>2014 wurde die Flagge für nicht-binäre Menschen von Kye Rowan gestaltet. Sie repräsentiert jene, die sich nicht in der genderqueeren Community wiederfinden. Gelb steht für die Identifikation zu keinem der binären Gendern, weiß steht für mehr als Gender, lila für einen Mix aus dem weiblichen und männlichen Gender oder irgendwas dazwischen und schwarz steht für das fehlende identifizieren zu einem Gender.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://nonbinary.wiki/wiki/Nonbinary"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/nonbinary-flag.svg",
+                "queer_flag_image_alt": "Bild der Non-Binary Flagge"
+            }
+        },
+        "en": {
+            "queer_flag_title": "Non-Binary Pride Flag",
+            "queer_flag_information": "<p>In 2014 Kye Rowan created a flag for the non-binary community. It represents all of those people who don't identify or feel represented in the genderqueer community. Yellow: gender without reference to the binary; White: many or all genders; Purple: gender between or a mix of female and male; Black: lack of gender.</p>",
+            "queer_flag_information_copyright_list": [
+                "https://queer-lexikon.net/pride-flags/",
+                "https://nonbinary.wiki/wiki/Nonbinary"
+            ],
+            "queer_flag_image": {
+                "queer_flag_image_src": "images/flags/nonbinary-flag.svg",
+                "queer_flag_image_alt": "Image of the Non-Binary Flag"
+            }
+        }
+    },
     "flags/ace_flag": {
         "de": {
             "queer_flag_title": "Asexuell Pride Flagge",
