@@ -3,7 +3,7 @@
         "message": "new queer tab / new queer window"
     },
     "extDescription": {
-        "message": "The extension overrides the chrome://newTab page and generates a random page with information about the queer community (aka LGBTQIA+)"
+        "message": "The extension overrides the chrome://newTab page and generates a random page with information about the queer community"
     },
     "queerFlagInformationSources": {
         "message": "Sources:"
