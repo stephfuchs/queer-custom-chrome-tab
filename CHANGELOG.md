@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-## [1.0.0](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0)
+## [1.0.1](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.1)
 
 ### Fixed
 
