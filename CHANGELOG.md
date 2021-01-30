@@ -2,15 +2,21 @@
 
 ## [Unreleased]
 
+## [1.0.0](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0)
+
 ### Added
 
 - information for
-  - gay men pride flag
-  - trans pride flag
+    - gay men pride flag
+    - trans pride flag
+    - intersex pride flag
+    - non-binary pride flag
+    - bi pride flag
+    - pan pride flag
 
 ### Changed
 
-- colors for 
+- colors for
     - nonbinary flag
     - pan flag
 
