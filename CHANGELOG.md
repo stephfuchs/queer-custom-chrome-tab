@@ -4,6 +4,12 @@
 
 ## [1.0.0](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0)
 
+### Fixed
+
+- descriptiong for the extension
+
+## [1.0.0](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.0)
+
 ### Added
 
 - information for
