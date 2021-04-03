@@ -8,9 +8,6 @@
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
     },
-    "permissions": [
-        "tabs"
-    ],
     "chrome_url_overrides": {
         "newtab": "index.html"
     },
