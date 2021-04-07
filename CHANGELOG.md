@@ -1,6 +1,40 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres
+to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## [Unreleased]
+
+## [1.1.1](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.1.1)
+
+### Changed
+
+- plugin description
+
+## [1.1.0](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.1.0)
+
+### Added
+
+- javascript file `custom-tab.js` to load the data
+- javascript file `queerinformation.js` providing the queer information as JSON as a return
+
+### Changed
+
+- add plugin version to the footer
+- update the plugin version in the manifest
+- getting the queer information from the `queerinformation.js`
+- default locale to `de`
+- moved the information data to the translation folder
+- set the data from JSON to the HTML tags
+- name for the aro and ace SVG file
+
+### Removed
+
+- JSON file for the queerinformation
+- SVGs for lesbian and asexuality term-image-folder
+- English translation (will be readded in another version)
 
 ## [1.0.2](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.2)
 
