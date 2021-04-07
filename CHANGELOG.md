@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.1.1](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.1.1)
+
+### Changed
+
+- plugin description
+
 ## [1.1.0](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.1.0)
 
 ### Added

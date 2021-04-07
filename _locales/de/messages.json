@@ -3,7 +3,7 @@
         "message": "Neuer Tab mit queerer Information"
     },
     "extDescription": {
-        "message": "Das Addon überschreibt die chrome:://newTab Seite und generiert eine zufällige Seite mit Informationen zur queeren Community"
+        "message": "Das Addon überschreibt die chrome:://newTab Seite und generiert eine zufällige Seite mit Informationen zur queeren/LGBTQIA+ Community"
     },
     "queerFlagInformationSources": {
         "message": "Quellenangabe:"
