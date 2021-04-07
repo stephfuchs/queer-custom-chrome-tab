@@ -1,18 +1,19 @@
 /**
  * Queerness tasks to run the script and the information for the new tab.
  */
-class Queerness {
+class Queer {
     /**
      * @param translator - Translator object
+     * @param queerInformation - QueerInformation object
      */
-    constructor(translator) {
+    constructor(translator, queerInformation) {
         this.startYear = 2021;
         this.date = new Date();
         this.currentYear = this.date.getFullYear();
         this.contributor = 'Stephanie Fuchs';
         this.translator = translator;
-        this.language = this.translator.getLocale();
-        document.getElementsByTagName('html')[0].setAttribute('lang', this.language);
+        this.queerInformation = queerInformation;
+        document.getElementsByTagName('html')[0].setAttribute('lang', this.translator.getLocale());
     }
 
     /**
@@ -29,33 +30,27 @@ class Queerness {
      * @private
      */
     _processJson() {
-        let request = new XMLHttpRequest();
-        var queer = this;
-
-        request.open('GET', '../json/queerInformation.json');
-        request.onload = function () {
-            if (request.status >= 200 && request.status < 400) {
-                let json = JSON.parse(request.responseText);
-                let jsonQueerInformationPicker = json.queerInformationPicker;
-                let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
-                queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]][queer.language]);
-            }
-        }
-        request.send();
+        let json = this.queerInformation.getInformationAsJSON();
+        let jsonQueerInformationPicker = this.queerInformation.getQueerInformationKeys();
+        let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
+        let jsonKey = jsonQueerInformationPicker[randomQueerInformation];
+        queer._setQueerInformation(json[jsonKey], jsonKey);
     }
 
     /**
      * Set the random queer information to the DOM
-     * @param jsonQueerInformation
+     *
+     * @param jsonQueerInformation JSON
+     * @param jsonKey string
      * @private
      */
-    _setQueerInformation(jsonQueerInformation) {
-        this._setInnerHtml('queer-flag-title', jsonQueerInformation.queer_flag_title);
-        this._setInnerHtml('queer-flag-information', jsonQueerInformation.queer_flag_information);
+    _setQueerInformation(jsonQueerInformation, jsonKey) {
+        this._setInnerHtml('queer-flag-title', this.translator.getTranslationMessage(jsonKey, 'title'));
+        this._setInnerHtml('queer-flag-information', this.translator.getTranslationMessage(jsonKey, 'information'));
 
-        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.queer_flag_image.queer_flag_image_src);
-        document.getElementById('queer-flag-image').setAttribute('alt', jsonQueerInformation.queer_flag_image.queer_flag_image_alt);
-        this._setInformationSources(jsonQueerInformation.queer_flag_information_copyright_list);
+        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.image);
+        document.getElementById('queer-flag-image').setAttribute('alt', this.translator.getTranslationMessage(jsonKey, 'image_alt'));
+        this._setInformationSources(jsonQueerInformation.copyright_list);
     }
 
     /**
@@ -90,7 +85,8 @@ class Queerness {
         if (this.currentYear !== this.startYear) {
             currentYear = ' - ' + this.currentYear + ' ';
         }
-        this._setInnerHtml('page-index-footer-copyright-year', '&copy; ' + this.startYear + currentYear + this.contributor)
+        this._setInnerHtml('page-index-footer-copyright-year', '&copy; ' + this.startYear + currentYear + this.contributor);
+        this._setInnerHtml('page-index-footer-version', 'version: ' + chrome.runtime.getManifest().version);
     }
 
     /**
@@ -123,8 +119,3 @@ class Queerness {
         this.translator.translateIndex();
     }
 }
-
-// start the script when ready
-var queer = new Queerness(new Translator());
-queer.init();
-
