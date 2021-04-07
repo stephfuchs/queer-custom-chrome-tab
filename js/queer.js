@@ -90,7 +90,8 @@ class Queerness {
         if (this.currentYear !== this.startYear) {
             currentYear = ' - ' + this.currentYear + ' ';
         }
-        this._setInnerHtml('page-index-footer-copyright-year', '&copy; ' + this.startYear + currentYear + this.contributor)
+        this._setInnerHtml('page-index-footer-copyright-year', '&copy; ' + this.startYear + currentYear + this.contributor);
+        this._setInnerHtml('page-index-footer-version', 'v' + chrome.runtime.getManifest().version);
     }
 
     /**
@@ -123,8 +124,3 @@ class Queerness {
         this.translator.translateIndex();
     }
 }
-
-// start the script when ready
-var queer = new Queerness(new Translator());
-queer.init();
-
