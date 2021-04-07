@@ -4,7 +4,7 @@
 class Queer {
     /**
      * @param translator - Translator object
-     * @param queerInformation
+     * @param queerInformation - QueerInformation object
      */
     constructor(translator, queerInformation) {
         this.startYear = 2021;
@@ -13,8 +13,7 @@ class Queer {
         this.contributor = 'Stephanie Fuchs';
         this.translator = translator;
         this.queerInformation = queerInformation;
-        this.language = this.translator.getLocale();
-        document.getElementsByTagName('html')[0].setAttribute('lang', this.language);
+        document.getElementsByTagName('html')[0].setAttribute('lang', this.translator.getLocale());
     }
 
     /**
@@ -31,26 +30,27 @@ class Queer {
      * @private
      */
     _processJson() {
-        // this._setQueerInformation(chrome.i18n.getMessage(''));
-
         let json = this.queerInformation.getInformationAsJSON();
-        let jsonQueerInformationPicker = json.queerInformationPicker;
+        let jsonQueerInformationPicker = this.queerInformation.getQueerInformationKeys();
         let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
-        queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]]);
+        let jsonKey = jsonQueerInformationPicker[randomQueerInformation];
+        queer._setQueerInformation(json[jsonKey], jsonKey);
     }
 
     /**
      * Set the random queer information to the DOM
-     * @param jsonQueerInformation
+     *
+     * @param jsonQueerInformation JSON
+     * @param jsonKey string
      * @private
      */
-    _setQueerInformation(jsonQueerInformation) {
-        this._setInnerHtml('queer-flag-title', jsonQueerInformation.queer_flag_title);
-        this._setInnerHtml('queer-flag-information', jsonQueerInformation.queer_flag_information);
+    _setQueerInformation(jsonQueerInformation, jsonKey) {
+        this._setInnerHtml('queer-flag-title', this.translator.getTranslationMessage(jsonKey, 'title'));
+        this._setInnerHtml('queer-flag-information', this.translator.getTranslationMessage(jsonKey, 'information'));
 
-        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.queer_flag_image.queer_flag_image_src);
-        document.getElementById('queer-flag-image').setAttribute('alt', jsonQueerInformation.queer_flag_image.queer_flag_image_alt);
-        this._setInformationSources(jsonQueerInformation.queer_flag_information_copyright_list);
+        document.getElementById('queer-flag-image').setAttribute('src', jsonQueerInformation.image);
+        document.getElementById('queer-flag-image').setAttribute('alt', this.translator.getTranslationMessage(jsonKey, 'image_alt'));
+        this._setInformationSources(jsonQueerInformation.copyright_list);
     }
 
     /**
