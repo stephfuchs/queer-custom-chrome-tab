@@ -91,7 +91,7 @@ class Queerness {
             currentYear = ' - ' + this.currentYear + ' ';
         }
         this._setInnerHtml('page-index-footer-copyright-year', '&copy; ' + this.startYear + currentYear + this.contributor);
-        this._setInnerHtml('page-index-footer-version', 'v' + chrome.runtime.getManifest().version);
+        this._setInnerHtml('page-index-footer-version', 'version: v' + chrome.runtime.getManifest().version);
     }
 
     /**
