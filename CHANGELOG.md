@@ -10,11 +10,18 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 
 - javascript file `custom-tab.js` to load the data
+- javascript file `queerinformation.js` providing the queer information as JSON as a return
 
 ### Changed
 
 - add plugin version to the footer
 - update the plugin version in the manifest
+- getting the queer information from the `queerinformation.js`
+- default locale to `de`
+
+### Removed
+
+- JSON file for the queerinformation
 
 ## [1.0.2](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.2)
 
