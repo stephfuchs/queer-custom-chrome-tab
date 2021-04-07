@@ -1,15 +1,15 @@
 {
     "extName": {
-        "message": "neuer queerer Tab / neues queeres Fenster"
+        "message": "Neuer Tab mit queerer Information"
     },
     "extDescription": {
         "message": "Das Addon überschreibt die chrome:://newTab Seite und generiert eine zufällige Seite mit Informationen zur queeren Community"
     },
     "queerFlagInformationSources": {
-        "message": "Quellenangabe:"
+        "message": "<strong>Quellenangabe:</strong>"
     },
     "pageIndexTitle": {
-        "message": "Neuer Queerness Tab"
+        "message": "Neuer queerer Tab"
     },
     "pageQueerTitle": {
         "message": "Lern die LGBTQIA+ Community kennen"
