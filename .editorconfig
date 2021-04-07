@@ -2,8 +2,6 @@
 # to use with PhpStorm install plugin „editorconfig“
 # Further information can be found here: http://editorconfig.org
 
-# Place this file in your project root
-
 root = true
 
 [*]
