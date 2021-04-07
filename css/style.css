@@ -26,6 +26,10 @@ strong, #queer-flag-information-sources {
     font-style: italic !important;
 }
 
+#page-index-footer-version {
+    font-size: 12px !important;
+}
+
 .footer-github-logo {
     max-height: 48px;
     max-width: 48px;

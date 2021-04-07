@@ -21,6 +21,17 @@ class Translator {
     }
 
     /**
+     * Get the chrome translation data by give JSON key and the key for the translation message.
+     *
+     * @param jsonKey
+     * @param messageKey
+     * @returns {string}
+     */
+    getTranslationMessage(jsonKey, messageKey) {
+        return this._getMessage(jsonKey.replace('/', '_') + '_' + messageKey);
+    }
+
+    /**
      * Translate the index page.
      */
     translateIndex() {
