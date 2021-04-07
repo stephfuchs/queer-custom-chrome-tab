@@ -31,7 +31,6 @@ class Queerness {
      * @private
      */
     _processJson() {
-        let request = new XMLHttpRequest();
         // this._setQueerInformation(chrome.i18n.getMessage(''));
 
         let json = this.queerInformation.getInformationAsJSON();
