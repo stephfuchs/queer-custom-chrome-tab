@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+### Added
+
+- javascript file `custom-tab.js` to load the data
+
+### Changed
+
+- add plugin version to the footer
+- update the plugin version in the manifest
+
 ## [1.0.2](https://github.com/stephfuchs/queer-custom-chrome-tab/releases/tag/1.0.2)
 
 ### Fixed
