@@ -1,0 +1,35 @@
+# This file is for unifying the coding style for different editors and IDEs
+# to use with PhpStorm install plugin „editorconfig“
+# Further information can be found here: http://editorconfig.org
+
+# Place this file in your project root
+
+root = true
+
+[*]
+; Unix-style newlines
+end_of_line = lf
+
+; File character encoding
+charset = utf-8
+
+; will control whether whitespace characters preceding a newline will be removed by text editors automatically
+trim_trailing_whitespace = true
+
+; Denotes whether file should end with a newline
+insert_final_newline = true
+
+; matches multiple files for default indentation
+
+[**.xml]
+indent_style = tab
+indent_size = 1
+
+
+[ant-config/**.{yaml, yml}]
+indent_style = space
+indent_size = 2
+
+[**.{php, twig, html, txt, json, js, sass, scss, less, css, xlf, yml, yaml}]
+indent_style = space
+indent_size = 4
