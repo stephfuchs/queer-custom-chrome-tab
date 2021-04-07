@@ -36,7 +36,7 @@ class Queer {
         let json = this.queerInformation.getInformationAsJSON();
         let jsonQueerInformationPicker = json.queerInformationPicker;
         let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
-        queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]][queer.language]);
+        queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]]);
     }
 
     /**
