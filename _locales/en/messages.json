@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "new queer tab / new queer window"
+        "message": "new tab with queer information"
     },
     "extDescription": {
         "message": "The extension overrides the chrome://newTab page and generates a random page with information about the queer community"
