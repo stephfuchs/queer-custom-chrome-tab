@@ -4,13 +4,15 @@
 class Queerness {
     /**
      * @param translator - Translator object
+     * @param queerInformation
      */
-    constructor(translator) {
+    constructor(translator, queerInformation) {
         this.startYear = 2021;
         this.date = new Date();
         this.currentYear = this.date.getFullYear();
         this.contributor = 'Stephanie Fuchs';
         this.translator = translator;
+        this.queerInformation = queerInformation;
         this.language = this.translator.getLocale();
         document.getElementsByTagName('html')[0].setAttribute('lang', this.language);
     }
@@ -30,18 +32,12 @@ class Queerness {
      */
     _processJson() {
         let request = new XMLHttpRequest();
-        var queer = this;
+        // this._setQueerInformation(chrome.i18n.getMessage(''));
 
-        request.open('GET', '../json/queerInformation.json');
-        request.onload = function () {
-            if (request.status >= 200 && request.status < 400) {
-                let json = JSON.parse(request.responseText);
-                let jsonQueerInformationPicker = json.queerInformationPicker;
-                let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
-                queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]][queer.language]);
-            }
-        }
-        request.send();
+        let json = this.queerInformation.getInformationAsJSON();
+        let jsonQueerInformationPicker = json.queerInformationPicker;
+        let randomQueerInformation = queer._random(jsonQueerInformationPicker.length);
+        queer._setQueerInformation(json[jsonQueerInformationPicker[randomQueerInformation]][queer.language]);
     }
 
     /**
