@@ -1,6 +1,6 @@
 /**
  * Start the script when ready
- * @type {Queerness}
+ * @type {Queer}
  */
-var queer = new Queerness(new Translator(), new QueerInformation());
+var queer = new Queer(new Translator(), new QueerInformation());
 queer.init();

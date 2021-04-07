@@ -1,7 +1,7 @@
 /**
  * Queerness tasks to run the script and the information for the new tab.
  */
-class Queerness {
+class Queer {
     /**
      * @param translator - Translator object
      * @param queerInformation
