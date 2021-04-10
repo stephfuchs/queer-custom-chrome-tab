@@ -1,3 +1,7 @@
+[![GitHub release version](https://img.shields.io/github/v/release/stephfuchs/queer-custom-chrome-tab?sort=semver&style=for-the-badge)](https://github.com/stephfuchs/queer-custom-chrome-tab/releases)
+[![GitHub release date](https://img.shields.io/github/release-date/stephfuchs/queer-custom-chrome-tab?include_prereleases&style=for-the-badge)](https://github.com/stephfuchs/queer-custom-chrome-tab/releases)
+[![GitHub license](https://img.shields.io/github/license/stephfuchs/queer-custom-chrome-tab?style=for-the-badge)](https://github.com/stephfuchs/queer-custom-chrome-tab/blob/main/LICENSE)
+
 # Get to know the LGBTQIA+ community
 
 This extension will change the page for a new tab / new page in _Google Chrome_ (version >= 88). It uses
@@ -10,7 +14,11 @@ already knew and maybe not. Kinda fun, huh?
 
 ## Installation
 
-Currently this extension is not available in the Chrome Webstore. But will soon.
+Go
+to [Google Webstore](https://chrome.google.com/webstore/detail/new-queer-tab-new-queer-w/dahlfajgbdjhbojakcobaagnfacemipi)
+to get the extension.
+
+### Install pre-releases
 
 In the meantime you can add it manually to chrome. That means, you have to download it first. Go
 to [Releases](https://github.com/stephfuchs/queer-custom-chrome-tab/releases) and download the latest version to your
